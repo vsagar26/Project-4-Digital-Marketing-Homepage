@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container, .list{
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.list-item{
+    padding: 10px 20px;
+    
+}
+
+.list{
+ align-items: flex-start;
+ margin-left: -200px;
+ font-family: Montserrat;
+ font-weight: 400;
+ font-size: 16px;
+ color: #848383;
+}
+
+.navbar-container div img{
+    height:40px;
+}
+
+ .nav-button{
+    font-family: Montserrat;
+    color: #fff;
+    padding: 14px 20px;
+    background-color: #7002ed;
+    border-radius: 6px;
+    font-size: 15px;
+    border-color:none;
+    border-width: 0;
+    
+}
+
+.button-group .nav-button{
+margin-right: 180px;
+}
+
+.heading-text{
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #3d0281;
+    width: 400px;
+    padding: 20px 40px;
+    margin-top: 60px;
+}
+
+span{
+    color: #7002ed;
+}
+
+.description{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #5f5b5b;
+    width: 360px;
+    padding: 16px 50px;
+
+}
+
+.btn{
+    margin: 40px 50px;
+    width: 180px;
+    padding: 16px 24px;
+
+}
+
+.banner-container div img{
+    position: absolute;
+    top: 130px;
+    right: 100px;
+    height: 580px;
+}
